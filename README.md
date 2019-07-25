@@ -20,7 +20,7 @@ baz: 30
 
 Running
 ```
-docker run --rm -it -v $(pwd):$(pwd) -w $(pwd) yaml-merge foo.yaml
+docker run --rm -it -v $(pwd):$(pwd) -w $(pwd) citypantry/yaml-merge foo.yaml
 bar.yaml
 ```
 should output
